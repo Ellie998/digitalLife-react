@@ -1,7 +1,11 @@
-function Stage0() {
+function Stage0(prop) {
+
+    function stageChange(){
+        const sam
+    }
 
     return (
-        <div className="sample_wrap">
+        <div className="sample_wrap 0">
             <input
                 type="text"
                 id="id"
@@ -25,7 +29,7 @@ function Stage0() {
                 <button type="submit" className="btn_login" id="log.login">
                     <span className="btn_text">로그인</span>
                 </button>
-                <div className="text_findID">아이디 찾기</div>
+                <div className="text_findID" onClick={stageChange}>아이디 찾기</div>
             </div>
         </div>
     );

@@ -17,7 +17,6 @@ header {
   display: flex;
   padding-left: 20px;
   padding-right:20px;
-  padding-top: 100px;
   padding-bottom: 100px;
   border-radius: 20px;
   color:black;
@@ -26,10 +25,12 @@ header {
 }
 
 h1 { 
+  font-family: 'IBM Plex Sans KR', sans-serif;
   text-align: center;
-  font-family: 'East Sea Dokdo', cursive;
-  font-size: 60px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight:900;
+  padding-top: 100px;
+
 }
 
 
@@ -119,4 +120,8 @@ button {
       width: 300px;
   }
 
+}
+
+.none {
+  display: none;
 }
